@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(65, 65, 4);
+}
+
+.card {
+  width: 400px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+aside p {
+  margin-top: 0;
+}
+
+.product {
+  justify-content: center;
+}
+
+.price {
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  background-color: rgb(44, 44, 1);
+  color: white;
+  width: 50%;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 40px;
+}
+
+.nav-bar {
+  justify-content: flex-end;
+}
